@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+}
+
+/* Carousel */
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* About */
+#about {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  height: 100vh;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  padding-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#about .lead {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Product */
+#product {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.product-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-item img {
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover img {
+  transform: scale(1.1);
+}
+
+.product-item:hover {
+  opacity: 1;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  padding-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.img-fluid {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1.2rem;
+}
+
+.btn-wrapper {
+  margin-top: 1rem;
+}
+
+.btn-order {
+  background-color: #2e2e2e;
+  color: white;
+}
+
+.btn-order:hover {
+  background-color: #545454;
+  color: white;
+}
+
+/* Form */
+#order-form {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#order-form h2 {
+  font-size: 2rem;
+  padding-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#order-form .form-label {
+  font-size: 1rem;
+}
+
+#order-form .form-control,
+#order-form .form-select {
+  font-size: 1rem;
+}
+
+#order-form .form-check-label {
+  font-size: 0.9rem;
+}
+
+#orderForm .mb-3 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(43, 43, 43);
+  text-align: center;
+  padding: 1rem 0 3rem;
+  margin-top: 3rem;
+}
+
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  color: rgb(194, 194, 194);
+  margin: 1rem;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+  color: rgb(211, 211, 211);
+}
+
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  color: rgb(194, 194, 194);
+  padding: 0.7rem 1rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: rgb(194, 194, 194);
+  font-weight: 700;
+}
